@@ -52,6 +52,24 @@ Plugins/*/Binaries/*
 # Builds
 Build/*
 
+# Third-party assets
+Content/MS_CastleStairV1/*
+Content/MS_CastleStructureV1/*
+Content/MS_MedievalTools/*
+Content/PN_GrassLibrary/*
+Content/DungeonLamps/*
+Content/FPWeapon/*
+Content/MSPresets/*
+Content/FreeFurniturePack/*
+
+# Files to keep
+!Content/Audio/*
+!Content/FirstPersonBP/*
+!Content/Menus/*
+!Content/Fonts/*
+!Content/Models/*
+!Content/Materials/*
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
@@ -72,3 +90,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+xp_survey.png
+Content/Source.zip
